@@ -1,0 +1,30 @@
+{
+	"name":"elite",
+	"version":"1",
+	"description":"Theme for elite",
+	"manifest_version":2,
+	"theme":{ 
+		"images":{
+			"theme_frame": "pictures/frame.jpg",
+			"theme_toolbar": "pictures/active.jpg",
+			"theme_tab_background": "pictures/nactive.jpg",
+			"theme_ntp_background": "pictures/background.jpg", 
+			},
+	"colors":{
+		"frame":[0,0,0],
+		"toolbar":[0,0,0],
+		"tab_text":[255,255,255],
+		"tab_background_text":[255,238,0],
+		"bookmark_text":[255,255,255],
+		"ntp_background":[0,0,0],
+		"ntp_text":[255,255,255],
+		"button_background":[20,108,23]},
+	"tints":{ 
+		"buttons":[0,1,0.5] // Указываем оттенки используемых цветов (оставьте значения указанные здесь);
+		},
+	"properties":{
+		"ntp_background_alignment":"bottom", // Указываем относительно какого края окна будет расположено основное изображение (bottom – нижний, top – верхний);
+		"ntp_background_repeat":"no-repeat" // Указываем необходимо ли «заполнять» нашим изображением все пространство окна браузера, в случае если оно больше по размеру, чем наше основное изображение.
+		}
+	}
+}
